@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonJsonToObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert JSON to Object"
+        android:onClick="convertJsonToObject" />
+
+    <Button
+        android:id="@+id/buttonObjectToJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert Object to JSON"
+        android:onClick="convertObjectToJson" />
+
+    <TextView
+        android:id="@+id/outputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Output will appear here"
+        android:textSize="16sp" />
+</LinearLayout>
